@@ -15,6 +15,7 @@
 		18F984FA29699D660002BCBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F984F829699D660002BCBF /* Main.storyboard */; };
 		18F984FC29699D670002BCBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F984FB29699D670002BCBF /* Assets.xcassets */; };
 		18F984FF29699D670002BCBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F984FD29699D670002BCBF /* LaunchScreen.storyboard */; };
+		18F985062969B01D0002BCBF /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F985052969B01D0002BCBF /* ScoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		18F984F929699D660002BCBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18F984FB29699D670002BCBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18F984FE29699D670002BCBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F985052969B01D0002BCBF /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				18F984F829699D660002BCBF /* Main.storyboard */,
 				18F984FB29699D670002BCBF /* Assets.xcassets */,
 				18F984FD29699D670002BCBF /* LaunchScreen.storyboard */,
+				18F985052969B01D0002BCBF /* ScoreViewController.swift */,
 			);
 			path = Game2D;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				18F984F529699D660002BCBF /* GameScene.swift in Sources */,
 				18F984F729699D660002BCBF /* GameViewController.swift in Sources */,
 				18F984EF29699D660002BCBF /* AppDelegate.swift in Sources */,
+				18F985062969B01D0002BCBF /* ScoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,8 +303,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,8 +330,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
